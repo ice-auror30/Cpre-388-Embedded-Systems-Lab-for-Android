@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab4_Agenda</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_add_event">AddEventActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+    <string name="event_form_title">Title</string>
+    <string name="event_form_location">Location</string>
+    <string name="event_form_start">Start Time</string>
+    <string name="event_form_end">End Time</string>
+    <string name="event_form_details">Details</string>
+    <string name="event_form_startdate">Start Date</string>
+    <string name="event_form_enddate">End Date</string>
+    <string name="addbutton">Add</string>
+    <string name="cancelbutton">Cancel</string>
+    <string name="add_event_button">Add Event</string>
+    <string name="menu_add_event">Add Event</string>
+
+</resources>

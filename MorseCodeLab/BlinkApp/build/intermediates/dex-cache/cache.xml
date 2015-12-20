@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Library/Development/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/jasonwong/Desktop/MorseCodeLab/BlinkApp/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-0ae5753e0c88b89c38d82fc0c7dc026ccd5e35b2.jar" />
+    </item>
+    <item
+        jar="/Users/jasonwong/Desktop/MorseCodeLab/BlinkApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/jasonwong/Desktop/MorseCodeLab/BlinkApp/app/build/intermediates/pre-dexed/debug/classes-f0e0c6d53c1502b69182626d0c9d4d81c594983a.jar" />
+    </item>
+    <item
+        jar="/Users/jasonwong/Desktop/MorseCodeLab/BlinkApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/jasonwong/Desktop/MorseCodeLab/BlinkApp/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-717b7a317faefb9907858b8bf1b348708fcdd996.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/parentFrameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/backgroundImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/background" >
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/linerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            
+            
+            <!-- TODO: Draw the timerbackground image for the Linear layout below-->
+            <LinearLayout              
+                android:id="@+id/timerBackground"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+                
+                    
+                    <!-- TODO: Create a TextView for hours,minutes and seconds 
+                         Set the text view for the hours, minutes, seconds which is given in the strings.xml file
+                         Set the width and height and size
+                         Customize the TextView youself!
+                         -->
+                   
+
+                
+                    
+                    <!-- TODO: Create a TextView for milliseconds
+                         Set the text for the milliseconds view which is given in the strings.xml file
+                         Set the width and height and size
+                         Customize the TextView youself!
+                         --> 
+                         
+                         
+            </LinearLayout>
+            
+            
+            
+            <!-- TODO: Draw the button area image for the Linear layout below-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+       
+
+              
+                    <!-- TODO: Create a stop button and give it an id!
+                         Set the width and height!
+                         Set the text of the stop button which is given in the strings.xml file!
+                         Set the background image from res/drawable folder,  "@drawable/btn_stop"
+                         Make sure it is invisible at beginning!
+                         Customize the button youself!
+                         -->
+                     
+                
+
+                
+                    <!-- TODO: Create a start button and give it an id!
+                         Set the width and height!
+                         Set the text of the start button which is given in the strings.xml file!
+                         Set the background image from res/drawable folder, "@drawable/btn_start"
+                         Customize the button youself!
+                         
+                         -->
+                     
+                
+
+                
+                    <!-- TODO: Create a reset button and give it an id!
+                         Set the width and height!
+                         Set the text of the reset button which is given in the strings.xml file!
+                         Set the background image from the res/drawable folder, "@drawable/btn_reset"
+                         Customize the button youself!
+                         
+                         -->
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/backgroundImageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/hline" >
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/backgroundText"
+                style="@style/backgroundText"
+                android:text="@string/backgroundText" >
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

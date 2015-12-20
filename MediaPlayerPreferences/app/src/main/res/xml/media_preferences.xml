@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Song Preferences">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/shuffle_pref"
+            android:title="Shuffle" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/repeat_pref"
+            android:title="Repeat" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/show_album"
+            android:title="List Populated Notification" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/menu_add_event"
+		android:title="@string/menu_add_event" />
+
+</menu><!-- From: file:/Users/IceAuror/Desktop/Fall%20'15/388/Labs/Agenda1/app/src/main/res/menu/activity_event_list.xml -->

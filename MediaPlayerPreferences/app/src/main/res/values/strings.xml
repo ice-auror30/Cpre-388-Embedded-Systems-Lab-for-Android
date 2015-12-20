@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyMediaPlayer</string>
+    <string name="preferences">Preferences</string>
+    <string name="choose_song">Choose a Song</string>
+    <string name="shuffle_pref">Shuffle</string>
+    <string name="repeat_pref">Repeat</string>
+    <string name="type_pref">Media Type</string>
+    <string name="show_album">Show Album</string>
+</resources>
